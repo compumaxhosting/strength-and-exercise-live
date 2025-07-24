@@ -69,7 +69,7 @@ export default function Header() {
           ))}
           <Button size="sm" variant="outline" className="flex items-center gap-2">
             <Phone size={16} />
-            Call Now
+            hi 
           </Button>
           {/* Desktop Dark Mode Toggle */}
           <button
