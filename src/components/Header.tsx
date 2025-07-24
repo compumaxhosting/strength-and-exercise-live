@@ -49,7 +49,7 @@ export default function Header() {
           <Image
             src={isDarkMode ? "/logo-white2.png" : "/logo-black.png"}
             alt="Logo"
-            width={129}
+            width={126}
             height={20}
             style={{ width: "auto", height: "auto" }}
             priority
@@ -69,7 +69,7 @@ export default function Header() {
           ))}
           <Button size="sm" variant="outline" className="flex items-center gap-2">
             <Phone size={16} />
-            hi 
+            Call Now 
           </Button>
           {/* Desktop Dark Mode Toggle */}
           <button

@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 export default function WhyWorkWithMe() {
   return (
-    <section className="bg-white dark:bg-gray-950 py-20 px-4 md:px-10 lg:px-20 relative overflow-hidden">
+    <section className="bg-white dark:bg-gray-950 py-7 px-4 md:px-10 lg:px-20 relative overflow-hidden">
       {/* Decorative elements with #f36100 */}
       <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
-        <div className="absolute top-1/4 -left-20 w-64 h-64 bg-[#f36100] rounded-full mix-blend-multiply filter blur-3xl" />
-        <div className="absolute bottom-1/3 -right-20 w-72 h-72 bg-[#f36100] rounded-full mix-blend-multiply filter blur-3xl" />
+        <div className="absolute top-1/4 -left-20 w-64 h-64" />
+        <div className="absolute bottom-1/3 -right-20 w-72 h-72" />
       </div>
 
       <div className="max-w-4xl mx-auto text-center space-y-8 relative z-10">

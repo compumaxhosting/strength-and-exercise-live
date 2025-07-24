@@ -10,8 +10,8 @@ export default function About() {
 
   return (
     <section className="bg-white dark:bg-gray-950 py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-[#f36100]/10 rounded-full blur-3xl opacity-70" />
-      <div className="absolute -top-20 -right-20 w-72 h-72 bg-[#f36100]/10 rounded-full blur-3xl opacity-70" />
+      <div className="absolute -bottom-20 -left-20 w-64 h-64" />
+      <div className="absolute -top-20 -right-20 w-72 h-72" />
 
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
         <motion.div

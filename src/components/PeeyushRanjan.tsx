@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 export default function PeeyushRanjan() {
   return (
-    <section className="bg-white dark:bg-gray-950 py-16 px-4 md:px-10 lg:px-20 relative overflow-hidden">
+    <section className="bg-white dark:bg-gray-950 py-8 px-4 md:px-10 lg:px-20 relative overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-[#f36100]/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70 dark:opacity-30 dark:mix-blend-screen" />
-      <div className="absolute -top-20 -right-20 w-72 h-72 bg-[#f36100]/10 rounded-full mix-blend-multiply filter blur-3xl opacity-70 dark:opacity-30 dark:mix-blend-screen" />
+      <div className="absolute -bottom-20 -left-20 w-64 h-64" />
+      <div className="absolute -top-20 -right-20 w-72 h-72" />
 
       <div className="max-w-5xl mx-auto relative z-10">
         {/* Heading with orange accent */}

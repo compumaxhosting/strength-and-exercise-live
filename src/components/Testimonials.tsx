@@ -43,7 +43,7 @@ export default function Testimonials() {
   }, [current]);
 
   return (
-    <section className="bg-white dark:bg-gray-950 py-16 px-6 sm:px-10">
+    <section className="bg-white dark:bg-gray-950 py-8 px-6 sm:px-10">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-[#f36100]">What Clients Say</h2>
         <p className="mt-3 text-gray-600 dark:text-gray-300 max-w-xl mx-auto">

@@ -23,21 +23,22 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-950 text-gray-800 dark:text-gray-300 pt-16 pb-10 px-6 md:px-12 lg:px-20">
+    <footer className="bg-gray-100 dark:bg-gray-950 text-gray-800 dark:text-gray-300 pt-8 pb-6 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-10 items-start">
         {/* Logo + Description */}
         <div className="max-w-md">
           <Image
             src={isDarkMode ? "/logo-white.png" : "/logo-black.png"}
             alt="Company Logo"
-            width={200}
+            width={100}
             height={60}
             style={{ width: "auto", height: "auto" }}
             priority
           />
-          <p className="text-sm mt-4 text-gray-600 dark:text-gray-400 leading-relaxed text-justify">
-            With the Corrective Optimal Strength Method, we believe in a client-centric, tailored approach designed to meet the individual and specific needs of each person. We help clients reach their optimal strength without causing muscle imbalances or overtraining that can lead to injury or old pain flaring up.
-          </p>
+          <p className="text-sm mt-4 text-gray-600 dark:text-gray-400 leading-relaxed text-justify max-w-3/4">
+  With the Corrective Optimal Strength Method, we believe in a client-centric, tailored approach designed to meet the individual and specific needs of each person. We help clients reach their optimal strength without causing muscle imbalances or overtraining that can lead to injury or old pain flaring up.
+</p>
+
         </div>
 
         {/* Quick Links */}

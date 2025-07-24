@@ -16,7 +16,7 @@ const services = [
 export default function Service() {
   const router = useRouter();
   return (
-    <section className="bg-white dark:bg-black py-12 md:py-20 px-4 sm:px-6 lg:px-8">
+    <section className="bg-white dark:bg-black py-12 md:py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">

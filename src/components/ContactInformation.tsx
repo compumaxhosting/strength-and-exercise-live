@@ -5,7 +5,7 @@ import { FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 
 export default function ContactInformation() {
   return (
-    <section className="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-12 px-4 md:px-8 lg:px-12">
+    <section className="bg-gray-200 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-12 px-4 md:px-8 lg:px-12">
       <div className="max-w-6xl mx-auto">
         <motion.div 
           initial={{ opacity: 0 }}
