@@ -40,7 +40,7 @@ const blogPosts = [
 
 export default function Blog() {
   return (
-    <section className="bg-gray-50 dark:bg-gray-950 py-12 px-4 sm:px-6">
+    <section className="bg-gray-50 dark:bg-gray-950 py-10 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <motion.div

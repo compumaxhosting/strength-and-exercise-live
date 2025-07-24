@@ -4,7 +4,7 @@ import { MapPin } from "lucide-react";
 
 export default function MapArea() {
   return (
-    <section className="w-full px-4 py-16 bg-gray-100 dark:bg-gray-900">
+    <section className="w-full px-4 py-10 bg-gray-100 dark:bg-gray-900">
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-center text-[#f36100] dark:text-[#f36100] mb-6">

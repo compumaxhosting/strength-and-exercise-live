@@ -30,10 +30,10 @@ export default function Faq() {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section className="bg-gray-50 dark:bg-gray-950 py-20 px-4 md:px-8 lg:px-12 relative overflow-hidden">
+    <section className="bg-gray-50 dark:bg-gray-950 py-10 px-4 md:px-8 lg:px-12 relative overflow-hidden">
       {/* Blobs */}
-      <div className="absolute -top-20 -right-20 w-72 h-72 bg-[#f36100]/10 rounded-full blur-3xl opacity-70 dark:opacity-30" />
-      <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-[#f36100]/10 rounded-full blur-3xl opacity-70 dark:opacity-30" />
+      <div className="absolute -top-20 -right-20 w-72 h-72" />
+      <div className="absolute -bottom-20 -left-20 w-64 h-64" />
 
       <div className="max-w-5xl mx-auto relative z-10">
         <motion.div

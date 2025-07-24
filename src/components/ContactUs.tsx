@@ -3,7 +3,7 @@ import ContactForm from "@/components/ContactForm";
 
 export default function ContactUs() {
   return (
-    <section className="bg-gray-50 dark:bg-black py-10 sm:py-14 px-4 sm:px-6 lg:px-8 transition-colors duration-300">
+    <section className="bg-gray-50 dark:bg-black py-10 sm:py-10 px-4 sm:px-6 lg:px-8 transition-colors duration-300">
       {/* Heading */}
       <h2 className="text-3xl sm:text-4xl font-bold text-center text-[#f36100] dark:text-[#f36100] mb-8 sm:mb-12">
         Contact Us

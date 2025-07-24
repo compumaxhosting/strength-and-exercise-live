@@ -29,7 +29,7 @@ export default function Service() {
   const router = useRouter();
 
   return (
-    <section className="relative bg-white dark:bg-black py-20 px-4 sm:px-8">
+    <section className="relative bg-white dark:bg-black py-10 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={false}
